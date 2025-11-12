@@ -20,7 +20,8 @@ This is a **multiclass object detection dataset** containing **8,386 labeled ima
 All samples were **self-annotated using Roboflow**, with a subset of **synthetically generated images** created specifically for this project to enhance model generalisation and robustness.
 
 <p align="center">
-  <img src="images/dataset_samples.png" alt="Dataset Samples" width="60%">
+  <img src="images/dataset_samples.png" alt="Dataset Samples" width="51%" style="margin-right: 10px;">
+  <img src="results/yolov7-results/train/exp15/train_batch7.jpg" alt="YOLOv7 Results" width="40%">
 </p>
 
 The dataset integrates and refines samples from multiple open-source sources, including:
@@ -47,7 +48,8 @@ The results demonstrate their effectiveness in identifying wildfire indicators a
 Each model directory contains configuration scripts, pretrained weights (if available), and outputs for both baseline and refined experiments.
 
 <p align="center">
-  <img src="images/comparison_results.png" alt="Detection Results" width="60%">
+  <img src="images/comparison_results.png" alt="Detection Results" width="46%" style="margin-right: 10px;">
+  <img src="results/yolov7-results/detect/tiny-results_300 epochs/stitched_003.png" alt="YOLOv7 Results" width="40%">
 </p>
 
 #### PTZ Camera Calibration & Data Collection
@@ -62,7 +64,7 @@ This component handles camera orientation control and data acquisition for live 
 * Integration-ready interface for coupling camera feeds with detection modules.
 
 <p align="center">
-  <img src="images/stitched.png" alt="Stitched" width="60%">
+  <img src="images/stitched.png" alt="Stitched" width="80%">
 </p>
 
 <p align="center">
