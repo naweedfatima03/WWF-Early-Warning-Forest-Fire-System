@@ -61,6 +61,14 @@ This component handles camera orientation control and data acquisition for live 
 * Data collection loop for labeled frame capture during live monitoring.
 * Integration-ready interface for coupling camera feeds with detection modules.
 
+<p align="center">
+  <img src="images/stitched.png" alt="Stitched" width="60%">
+</p>
+
+<p align="center">
+  <img src="images/pano.jpg" alt="Panorama" width="90%">
+</p>
+
 These capabilities support dynamic observation, allowing the camera to automatically track suspected fire regions in real time.
 
 ---
