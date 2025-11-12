@@ -19,6 +19,10 @@ The **Fire and Smoke Detection Dataset** used in this project is publicly availa
 This is a **multiclass object detection dataset** containing **8,386 labeled images** across *fire* and *smoke* categories.
 All samples were **self-annotated using Roboflow**, with a subset of **synthetically generated images** created specifically for this project to enhance model generalisation and robustness.
 
+<p align="center">
+  <img src="images/dataset_samples.png" alt="Dataset Samples" width="60%">
+</p>
+
 The dataset integrates and refines samples from multiple open-source sources, including:
 
 * [Forest Fire Dataset (Kaggle – alik05)](https://www.kaggle.com/datasets/alik05/forest-fire-dataset)
@@ -41,6 +45,10 @@ This repository implements and evaluates **YOLOv7** and **DeTR / ViT** models fo
 The results demonstrate their effectiveness in identifying wildfire indicators across varying environmental and lighting conditions.
 
 Each model directory contains configuration scripts, pretrained weights (if available), and outputs for both baseline and refined experiments.
+
+<p align="center">
+  <img src="images/comparison_results.png" alt="Detection Results" width="60%">
+</p>
 
 #### PTZ Camera Calibration & Data Collection
 
